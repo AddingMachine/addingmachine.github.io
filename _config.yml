@@ -1,0 +1,12 @@
+name: Nick Stuff 
+email: nick.mohoric@gmail.com
+desc: "Personal programming blog."
+markdown: kramdown
+permalink: pretty
+paginate: 5
+paginate_path: "page:num"
+disqus: addingmachine
+gituser: addingmachine
+
+# So travis doesn't explode
+exclude: [vendor]
