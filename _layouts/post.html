@@ -8,13 +8,13 @@ layout: default
 		<h1>{{ page.title }}</h1>
 		<p class="meta">
 			<time class="timeago postlist-meta" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time>
-			<a class="button blue share" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+window.location.href,'_blank','height=300,width=600');return false;">Share on fb
+			<a class="button blue share" href="javascript:void(0)" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+window.location.href,'_blank','height=300,width=600');return false;">Share on fb
             </a> 
 			{% if site.twitter %}
-				<a class="button blue share" target="_blank" onclick="window.open('https://twitter.com/share?url='+window.location.href+'&via={{ site.twitter }}','_blank','height=300,width=600');return false;">Share on twitter
+				<a class="button blue share" href="javascript:void(0)" target="_blank" onclick="window.open('https://twitter.com/share?url='+window.location.href+'&via={{ site.twitter }}','_blank','height=300,width=600');return false;">Share on twitter
                 </a>
 			{% else %}
-				<a class="button blue share" target="_blank" onclick="window.open('https://twitter.com/share?url='+window.location.href,'_blank','height=300,width=600');return false;">Share on twitter
+				<a class="button blue share" href="javascript:void(0)" target="_blank" onclick="window.open('https://twitter.com/share?url='+window.location.href,'_blank','height=300,width=600');return false;">Share on twitter
                 </a> 
 			{% endif %}
 		</p>
