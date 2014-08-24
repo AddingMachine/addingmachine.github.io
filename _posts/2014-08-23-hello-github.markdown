@@ -2,4 +2,4 @@
 layout: post
 title: Hello Github
 ---
-Look it is a thing where maybe I will say words of programming.
+Look it is a thing where I will maybe say words of programming.
