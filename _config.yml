@@ -6,7 +6,7 @@ permalink: pretty
 paginate: 5
 paginate_path: "page:num"
 disqus: addingmachine
-gituser: addingmachine
+gituser: nmohoric
 
 # So travis doesn't explode
 exclude: [vendor]
