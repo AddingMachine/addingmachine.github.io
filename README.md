@@ -1,4 +1,4 @@
-addingmachine.github.io
+nmohoric.github.io
 =======================
 
 My personal blog. Powered by Jekyll.
